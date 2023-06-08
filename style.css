@@ -1,16 +1,13 @@
 
 *{
     --darker-blue: #494d5f;
-    --lighter-blue: #d0bdf4;;
-   
+    --lighter-blue: #d0bdf4;;  
 }
+
 html{
     background-color: #e5eaf5;
     margin: 0;
     padding: 0;
-   
-
-
 } 
 
 header{
@@ -21,13 +18,19 @@ header{
     z-index: -1;
     
     
-    
 }
 header > h1{
     position: absolute;
-    top: 50px;
-    color: var(--lighter-blue);
+    top: 20px;
+    color: white;
     left: 200px;
+    font-size: 4rem;
+}
+header > h2{
+    position: absolute;
+    top: 115px;
+    left: 200px;
+    color: var(--lighter-blue)
 }
 
 
@@ -119,7 +122,7 @@ nav > ul> li{
     
 }
 nav > ul> li > a{
-    color: var(--lighter-blue);
+    color: var(--darker-blue);
 }
 
 .read-more > h1{ 
@@ -143,4 +146,14 @@ span{
     font-size: 2rem;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
-
+.userpw{
+    position: absolute;
+    left: 750px;
+    top: 40px;
+    color: var(--lighter-blue);
+    
+}
+.userpw > label > span{
+    position: absolute;
+    bottom: 25px;
+}
