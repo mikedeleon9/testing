@@ -57,7 +57,7 @@ header > h2{
 .main-container .fruit{
     
    text-align: center;
-   background-color: var(--lighter-blue);
+   background-color: var(--darker-blue);
    flex-basis: 0%;
    flex: 1 1 0px;
    align-self:stretch; 
@@ -70,7 +70,7 @@ header > h2{
 .main-container p{
   
     text-align: center;
-    color: var(--darker-blue);
+    color: white;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     font-weight:bold;
     
@@ -85,8 +85,12 @@ header > h2{
 h1{
     text-align: center;
     font-family: monospace;
-    color: var(--darker-blue);
+    /*color: var(--lighter-blue);*/
+
     
+}
+.fruit >h1{
+    color: var(--lighter-blue);
 }
 
 header img{
@@ -97,6 +101,17 @@ header img{
     top: 80px;
     z-index: 1;
    
+}
+.choose-fruit{
+    position: absolute;
+    left: 78%;
+    bottom: 55%;
+}
+.first-line{
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: var(--darker-blue);
 }
 
 
@@ -130,6 +145,7 @@ nav > ul> li > a{
     font-size: 2.5rem;
     max-width: 50%;
     font-family: palatino;
+    color: var(--darker-blue);
     
 }
 .read-more{
@@ -148,12 +164,16 @@ span{
 }
 .userpw{
     position: absolute;
-    left: 750px;
-    top: 40px;
+    left: 780px;
+    top: 120px;
     color: var(--lighter-blue);
-    
 }
 .userpw > label > span{
     position: absolute;
-    bottom: 25px;
+    bottom: 30px;   
+}
+
+input[type=text]{
+    border-radius: 40px;
+  
 }
